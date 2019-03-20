@@ -6,7 +6,7 @@ And it seemed like a good opportunity to demonstrate [asyncio](https://docs.pyth
 
 `./sleepsort.py` contains a command line application that can sort positive integers by sleeping. It requires Python 3.7.
 
-If you have [poetry](https://docs.pytest.org/en/latest/), you can run:
+If you have [poetry](https://poetry.eustace.io/), you can run:
 
 ```
 poetry run ./sleepsort.py 6 2 8 3 6 9
