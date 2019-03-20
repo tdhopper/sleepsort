@@ -15,8 +15,7 @@ async def sleepsort(l: List[int]):
     # Create all coroutines before starting them
     tasks = [asyncio.create_task(sleepprint(i)) for i in l]
     # Run coroutines
-    for t in tasks:
-        await t
+    await asyncio.gather(*tasks)
 
 
 if __name__ == "__main__":
